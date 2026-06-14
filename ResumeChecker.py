@@ -209,7 +209,7 @@ Overall Score: XX/100
 
                     chat = ChatGoogleGenerativeAI(
                         model=model_name,
-                        google_api_key=GOOGLE_API_KEY,
+                        google_api_key=google_api_key,
                         temperature=0.2
                     )
 
